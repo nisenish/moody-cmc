@@ -7,8 +7,9 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+group :development do
+  gem 'sqlite3'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -23,6 +24,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :doc do
+  gem 'sdoc', '0.3.20', require: false
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -43,4 +48,7 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
+<<<<<<< HEAD
 
+=======
+>>>>>>> f8df7e7f82bb0076a0210295825dab607ba15af5

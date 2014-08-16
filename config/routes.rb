@@ -1,10 +1,13 @@
 Cmc::Application.routes.draw do
+<<<<<<< HEAD
   resources :associations
 
 
   resources :songs
 
 
+=======
+>>>>>>> f8df7e7f82bb0076a0210295825dab607ba15af5
   resources :users
 
 
