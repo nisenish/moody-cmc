@@ -48,7 +48,3 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
-<<<<<<< HEAD
-
-=======
->>>>>>> f8df7e7f82bb0076a0210295825dab607ba15af5

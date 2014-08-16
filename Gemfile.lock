@@ -53,10 +53,6 @@ GEM
     mime-types (1.25.1)
     multi_json (1.9.2)
     pg (0.15.1)
-<<<<<<< HEAD
-=======
-    pg (0.15.1-x86-mingw32)
->>>>>>> f8df7e7f82bb0076a0210295825dab607ba15af5
     polyglot (0.3.4)
     rack (1.4.5)
     rack-cache (1.2)
