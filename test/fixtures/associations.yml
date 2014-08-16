@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  song_id: 1
+  color_option: 1
+  color: MyString
+
+two:
+  user_id: 1
+  song_id: 1
+  color_option: 1
+  color: MyString

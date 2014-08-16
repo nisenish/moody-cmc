@@ -1,4 +1,13 @@
 Cmc::Application.routes.draw do
+  resources :associations
+
+
+  resources :songs
+
+
+  resources :users
+
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
